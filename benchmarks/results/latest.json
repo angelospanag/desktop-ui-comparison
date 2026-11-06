@@ -1,0 +1,241 @@
+{
+ "date": "2026-11-06",
+ "machine": "Apple M3 Max",
+ "macos": "27.2",
+ "note": "Imported from an earlier run with the same app code and method, before the folders moved. startup_ms holds only the median of 7 launches.",
+ "sizes": {
+  "Rust + GPUI": 8065792,
+  "Rust + GPUI, stripped": 6301088,
+  "C# Native AOT": 39408264,
+  "C# self-contained": 117684445,
+  "C# self-contained, single compressed file": 49364635,
+  "C# framework-dependent (needs .NET installed)": 31066850
+ },
+ "apps": {
+  "gpui": {
+   "startup_ms": [
+    198
+   ],
+   "timeline": [
+    {
+     "2": {
+      "footprint_mb": 235.0,
+      "graphics_mb": 193.0
+     },
+     "5": {
+      "footprint_mb": 38.0,
+      "graphics_mb": 1.09375
+     },
+     "8": {
+      "footprint_mb": 38.0,
+      "graphics_mb": 1.09375
+     },
+     "28": {
+      "footprint_mb": 37.0,
+      "graphics_mb": 1.09375
+     },
+     "45": {
+      "footprint_mb": 37.0,
+      "graphics_mb": 1.09375
+     }
+    },
+    {
+     "2": {
+      "footprint_mb": 236.0,
+      "graphics_mb": 193.0
+     },
+     "5": {
+      "footprint_mb": 39.0,
+      "graphics_mb": 1.09375
+     },
+     "8": {
+      "footprint_mb": 38.0,
+      "graphics_mb": 1.09375
+     },
+     "28": {
+      "footprint_mb": 37.0,
+      "graphics_mb": 1.09375
+     },
+     "45": {
+      "footprint_mb": 37.0,
+      "graphics_mb": 1.09375
+     }
+    }
+   ],
+   "idle_cpu_percent": [
+    1.35,
+    1.3
+   ],
+   "switching": [
+    {
+     "median_ms": 15.1,
+     "p95_ms": 16.7,
+     "max_ms": 18.0,
+     "cpu_seconds_total": 0.81
+    },
+    {
+     "median_ms": 15.1,
+     "p95_ms": 16.9,
+     "max_ms": 17.4,
+     "cpu_seconds_total": 0.75
+    },
+    {
+     "median_ms": 14.1,
+     "p95_ms": 17.8,
+     "max_ms": 19.4,
+     "cpu_seconds_total": 0.8
+    }
+   ]
+  },
+  "avalonia-aot": {
+   "startup_ms": [
+    232
+   ],
+   "timeline": [
+    {
+     "2": {
+      "footprint_mb": 57.0,
+      "graphics_mb": 9.484375
+     },
+     "5": {
+      "footprint_mb": 55.0,
+      "graphics_mb": 9.484375
+     },
+     "8": {
+      "footprint_mb": 55.0,
+      "graphics_mb": 9.484375
+     },
+     "28": {
+      "footprint_mb": 55.0,
+      "graphics_mb": 9.484375
+     },
+     "45": {
+      "footprint_mb": 55.0,
+      "graphics_mb": 9.484375
+     }
+    },
+    {
+     "2": {
+      "footprint_mb": 57.0,
+      "graphics_mb": 9.484375
+     },
+     "5": {
+      "footprint_mb": 55.0,
+      "graphics_mb": 9.484375
+     },
+     "8": {
+      "footprint_mb": 55.0,
+      "graphics_mb": 9.484375
+     },
+     "28": {
+      "footprint_mb": 55.0,
+      "graphics_mb": 9.484375
+     },
+     "45": {
+      "footprint_mb": 55.0,
+      "graphics_mb": 9.484375
+     }
+    }
+   ],
+   "idle_cpu_percent": [
+    0.05,
+    0.05
+   ],
+   "switching": [
+    {
+     "median_ms": 13.0,
+     "p95_ms": 16.8,
+     "max_ms": 20.1,
+     "cpu_seconds_total": 1.35
+    },
+    {
+     "median_ms": 16.2,
+     "p95_ms": 18.5,
+     "max_ms": 24.4,
+     "cpu_seconds_total": 1.42
+    },
+    {
+     "median_ms": 15.5,
+     "p95_ms": 18.2,
+     "max_ms": 23.9,
+     "cpu_seconds_total": 1.38
+    }
+   ]
+  },
+  "avalonia-jit": {
+   "startup_ms": [
+    546
+   ],
+   "timeline": [
+    {
+     "2": {
+      "footprint_mb": 111.0,
+      "graphics_mb": 9.484375
+     },
+     "5": {
+      "footprint_mb": 108.0,
+      "graphics_mb": 9.484375
+     },
+     "8": {
+      "footprint_mb": 108.0,
+      "graphics_mb": 9.484375
+     },
+     "28": {
+      "footprint_mb": 109.0,
+      "graphics_mb": 9.484375
+     },
+     "45": {
+      "footprint_mb": 109.0,
+      "graphics_mb": 9.484375
+     }
+    },
+    {
+     "2": {
+      "footprint_mb": 110.0,
+      "graphics_mb": 9.484375
+     },
+     "5": {
+      "footprint_mb": 108.0,
+      "graphics_mb": 9.484375
+     },
+     "8": {
+      "footprint_mb": 108.0,
+      "graphics_mb": 9.484375
+     },
+     "28": {
+      "footprint_mb": 109.0,
+      "graphics_mb": 9.484375
+     },
+     "45": {
+      "footprint_mb": 109.0,
+      "graphics_mb": 9.484375
+     }
+    }
+   ],
+   "idle_cpu_percent": [
+    0.45,
+    0.4
+   ],
+   "switching": [
+    {
+     "median_ms": 15.6,
+     "p95_ms": 16.5,
+     "max_ms": 18.5,
+     "cpu_seconds_total": 3.36
+    },
+    {
+     "median_ms": 15.0,
+     "p95_ms": 16.8,
+     "max_ms": 24.7,
+     "cpu_seconds_total": 3.41
+    },
+    {
+     "median_ms": 14.6,
+     "p95_ms": 16.6,
+     "max_ms": 22.8,
+     "cpu_seconds_total": 3.41
+    }
+   ]
+  }
+ }
+}

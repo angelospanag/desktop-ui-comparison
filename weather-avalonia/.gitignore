@@ -1,0 +1,11 @@
+# Build output
+bin/
+obj/
+publish/
+
+# Test output
+TestResults/
+
+# IDE per-user files
+*.user
+.vs/
