@@ -34,7 +34,7 @@ mise exec -- dotnet test WeatherApp.slnx
 mise exec -- dotnet test WeatherApp.slnx --filter "Category!=Live"
 ```
 
-The live test saves what the window rendered to `tests/WeatherApp.Tests/bin/Debug/net10.0/weather-live.png`.
+The live test saves what the window rendered to `tests/WeatherApp.Tests/bin/Debug/net11.0/weather-live.png`.
 
 ## Build for release
 
